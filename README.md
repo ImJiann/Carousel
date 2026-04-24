@@ -44,7 +44,6 @@
             scrollbar-width: thin;
             scrollbar-color: #a58bd4 #e5d9ff;
         }
-        /* for Chrome/Safari */
         .carousel::-webkit-scrollbar {
             height: 8px;
         }
@@ -72,7 +71,6 @@
             box-shadow: 0 8px 12px #9d87cf;
             border: 3px solid white;
         }
-        /* make images fit (if you use real images) */
         .carousel-item img {
             width: 230px;
             height: 150px;
