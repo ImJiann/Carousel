@@ -1,4 +1,4 @@
-[Amara.html](https://github.com/user-attachments/files/27050276/Amara.html)[Upl<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
