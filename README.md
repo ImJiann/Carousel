@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple carousel </title>
     <style>
-        /* just the basics — no extra decorations */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             background: #f0eaff;
             font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +19,6 @@
             min-height: 100vh;
             padding: 1rem;
         }
-
         .card {
             max-width: 700px;
             width: 100%;
@@ -31,14 +28,12 @@
             box-shadow: 0 15px 30px #b9a6dd;
             text-align: center;
         }
-
         h2 {
             color: #2c2152;
             margin-bottom: 1.8rem;
             font-weight: 500;
             font-size: 2rem;
         }
-
         .carousel {
             display: flex;
             overflow-x: auto;
@@ -49,7 +44,6 @@
             scrollbar-width: thin;
             scrollbar-color: #a58bd4 #e5d9ff;
         }
-
         /* for Chrome/Safari */
         .carousel::-webkit-scrollbar {
             height: 8px;
@@ -62,7 +56,6 @@
             background: #a58bd4;
             border-radius: 20px;
         }
-
         .carousel-item {
             scroll-snap-align: start;
             flex: 0 0 auto;
@@ -79,7 +72,6 @@
             box-shadow: 0 8px 12px #9d87cf;
             border: 3px solid white;
         }
-
         /* make images fit (if you use real images) */
         .carousel-item img {
             width: 230px;
@@ -87,9 +79,6 @@
             object-fit: cover;
             border-radius: 1.4rem;
         }
-
-            
-
          .note {
             margin-top: 1.8rem;
             color: #4a3977;
@@ -98,7 +87,6 @@
             border-radius: 3rem;
             font-size: 1rem;
         }
-
          .notes {
             margin-top: 1.8rem;
             color: #4a3977;
@@ -110,14 +98,11 @@
             gap: 100px;
             justify-content: center;
         }
-
     </style>
 </head>
 <body>
     <div class="card">
-        <h2> Cartoons Carousel </h2>
-
-        
+        <h2> Cartoons Carousel </h2> 
         <div class="carousel">                                                           
             <div class="carousel-item" id="slide1"><img src="mickey.png"> </div>
             <div class="carousel-item" id="slide2"><img src="bugsbunny.png"></div>
@@ -126,9 +111,7 @@
             <div class="carousel-item" id="slide5"><img src="simpson2.png"></div>
             <div class="carousel-item" id="slide6"><img src="moana2.png"> </div>
         </div>
-
         <div class = "notes"> 
-        
             <a href="#slide1"> <b>1</b></a>
             <a href="#slide2"> <b>2</b></a>
             <a href="#slide3"> <b>3</b></a>
@@ -136,12 +119,9 @@
             <a href="#slide5"> <b>5</b></a>
             <a href="#slide6"> <b>6</b></a>
         </div>
-
-
         <div class="note">
                             <i>>Click numbers<</i>  
         </div>
-
         <p style="margin-top: 1.5rem; color:#3c2d66; background:#f3ecff; padding:0.6rem; border-radius:3rem;">
             ✔️ <code>display: flex;</code> + <code> overflow-x: </code> + <code> auto; </code>>
         </p>
